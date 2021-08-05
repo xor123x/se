@@ -138,8 +138,6 @@ function finity.new(isdark, gprojectName, thinProject)
 	local firstCategory = true
     local savedposition = UDim2.new(0.5, 0, 0.5, 0)
     
-    self2.tip.Text = "Press Insert to hide this menu"
-
 	local finityData
 	finityData = {
 		UpConnection = nil,
